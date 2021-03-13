@@ -26,7 +26,7 @@ chart and their default values.
 
 Parameter | Description | Default
 --------- | ----------- | -------
-`image.repository` | Jamulus container image repository | `grundic/jamulus`
+`image.repository` | Jamulus container image repository | [`grundic/jamulus`](https://github.com/grundic/jamulus-docker)
 `image.tag` | Jamulus container image tag | `3.5.7`
 `image.pullPolicy` | Jamulus container image pull policy | `IfNotPresent`
 `imagePullSecrets` | Image pull secrets | `[]`
