@@ -1,0 +1,17 @@
+apiVersion: v1
+entries:
+  jamulus:
+  - apiVersion: v2
+    appVersion: 3.5.7
+    created: "2021-03-13T16:21:30.346124379Z"
+    description: Jamulus Helm chart
+    digest: 00483e47d79cc8f4671e6704a63f8120864eb0848dd1f0727a58bf8424c6827f
+    icon: https://jamulus.io/assets/img/jamulus-icon-2020.svg
+    maintainers:
+    - name: robinelfrink
+    name: jamulus
+    type: application
+    urls:
+    - https://github.com/robinelfrink/jamulus-helm/releases/download/jamulus-1.0.0/jamulus-1.0.0.tgz
+    version: 1.0.0
+generated: "2021-03-13T16:21:30.346129379Z"
