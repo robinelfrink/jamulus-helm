@@ -2,7 +2,7 @@ apiVersion: v2
 name: jamulus
 description: Jamulus Helm chart
 type: application
-version: 0.1.0
+version: 1.0.0
 appVersion: "3.5.7"
 icon: https://jamulus.io/assets/img/jamulus-icon-2020.svg
 maintainers:

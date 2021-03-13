@@ -11,7 +11,8 @@ This chart will install Jamulus in headless server mode.
 To install the chart with the release name jamulus:
 
 ```
-$ helm install jamulus charts/jamulus/
+$ helm repo add jamulus https://robinelfrink.github.io/jamulus-helm
+$ helm install jamulus jamulus/jamulus
 ```
 
 The command deploys Jamulus on the Kubernetes cluster in the default
@@ -50,7 +51,7 @@ Specify each parameter using the `--set key=value[,key=value]` argument
 to helm install. For example:
 
 ```
-$ helm install jamulus charts/jamulus/ \
+$ helm install jamulus jamulus/jamulus \
     --set jamulus.welcomeMessage="Welcome to my Jamulus"
 ```
 
@@ -58,5 +59,5 @@ Alternatively, a YAML file that specifies the values for the above
 parameters can be provided while installing the chart. For example,
 
 ```
-$ helm install jamulus charts/jamulus/ --values values.yaml
+$ helm install jamulus jamulus/jamulus --values values.yaml
 ```
